@@ -1,0 +1,75 @@
+.cadastro {
+    background-color: var(--bg-principal);
+    padding: 1.5rem;
+}
+
+.cadastro__titulo,
+.cadastro__texto {
+    background: var(--bg-destaque);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.cadastro__titulo {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.cadastro__texto {
+    font-weight: 300;
+    margin: .8rem 0 1.5rem 0;
+}
+
+.cadastro__email {
+    width: 100%;
+    background-color: transparent;
+    padding: 11.5px 1rem;
+    border: 1px var(--cor-titulo) solid;
+    border-radius: 24px;
+    color: var(--cor-titulo);
+}
+
+.cadastro__email::placeholder {
+    background: url(../img/Email.svg) no-repeat;
+    background-position: 1rem;
+    text-align: left;
+    color: var(--cor-titulo);
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .cadastro {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 6rem 3.375rem 6rem;
+    }
+
+    .cadastro__titulo {
+        font-size: 1.5rem;
+    }
+
+    .cadastro__email {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cadastro {
+        padding: 4rem 0;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .cadastro__caixa {
+        width: 23%;
+    }
+
+    .cadastro__email {
+        width: 23%;
+    }
+}

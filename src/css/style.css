@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url(header.css);
+@import url(banner.css);
+@import url(carrossel.css);
+@import url(card.css);
+@import url(lista-topicos.css);
+@import url(cadastro.css);
+@import url(footer.css);
+
+
+:root {
+    --bg-principal: #FFFFFF;
+    --bg-secundario: #EBECEE;
+    --bg-footer: #F9F9F9;
+    --linha-footer: #858585;
+    --bg-destaque: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --bg-button: #EB9B00;
+    --hover-button: #db7c00;
+    --cor-texto: #000000;
+    --cor-titulo: #002F52;
+    --subtitulo-rodape: #858585;
+    --texto-rodape: #474646;
+    --fonte: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: var(--bg-secundario);
+    font-family: var(--fonte);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
