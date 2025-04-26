@@ -1,6 +1,6 @@
 # Projeto desenvolvido durante curso de mobile-first na Alura.
 
-![image](src/img/ImagemReadme.png) ![image](src/img/Imagem2Readme.png)
+<img src="src/img/ImagemReadme.png" width="200px"> <img src="src/img/Imagem2Readme.png" width="200px">
 
 ## Ferramentas utilizadas:
 
