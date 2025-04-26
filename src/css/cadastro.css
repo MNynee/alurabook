@@ -22,7 +22,7 @@
 }
 
 .cadastro__email {
-    width: 100%;
+    width: 90%;
     background-color: transparent;
     padding: 11.5px 1rem;
     border: 1px var(--cor-titulo) solid;
